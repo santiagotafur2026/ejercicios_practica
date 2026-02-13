@@ -1,0 +1,126 @@
+<!-- * ---------------------------------------
+*    Objetivo:
+*        Comentar secciones del formulario
+*    
+*    Tips:
+*        Toggle line comment: Ctrl + /
+*        Toggle block comment: Shift + Alt + A
+*
+*    Tarea:
+*        1. Comentar el campo de teléfono
+*        2. Comentar toda la sección de dirección
+*        3. Comentar los campos opcionales (newsletter y términos)
+* ------------------------------------------>
+
+<form class="registro-usuario">
+    <h2>Registro de Usuario</h2>
+    
+    <!-- Información básica -->
+    <div class="campo">
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" required>
+    </div>
+
+    <div class="campo">
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+    </div>
+
+    <div class="campo">
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono">
+    </div>
+
+    <!-- Dirección -->
+    <div class="seccion-direccion">
+        <h3>Dirección de Envío</h3>
+        
+        <div class="campo">
+            <label for="calle">Calle:</label>
+            <input type="text" id="calle">
+        </div>
+
+        <div class="campo">
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" id="ciudad">
+        </div>
+
+        <div class="campo">
+            <label for="codigo">Código Postal:</label>
+            <input type="text" id="codigo">
+        </div>
+    </div>
+
+    <!-- Campos opcionales -->
+    <div class="campo">
+        <input type="checkbox" id="newsletter">
+        <label for="newsletter">Suscribirse al newsletter</label>
+    </div>
+
+    <div class="campo">
+        <input type="checkbox" id="terminos" required>
+        <label for="terminos">Acepto términos y condiciones</label>
+    </div>
+
+    <button type="submit">Registrarse</button>
+</form>
+
+
+<!--! Objetivo final !-->
+
+<form class="registro-usuario">
+    <h2>Registro de Usuario</h2>
+    
+    <!-- Información básica -->
+    <div class="campo">
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" required>
+    </div>
+
+    <div class="campo">
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+    </div>
+
+    <!-- <div class="campo">
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono">
+    </div> -->
+
+    <!-- Dirección -->
+    <!--
+    <div class="seccion-direccion">
+        <h3>Dirección de Envío</h3>
+        
+        <div class="campo">
+            <label for="calle">Calle:</label>
+            <input type="text" id="calle">
+        </div>
+
+        <div class="campo">
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" id="ciudad">
+        </div>
+
+        <div class="campo">
+            <label for="codigo">Código Postal:</label>
+            <input type="text" id="codigo">
+        </div>
+    </div>
+    -->
+
+    <!-- Campos opcionales -->
+    <!--
+    <div class="campo">
+        <input type="checkbox" id="newsletter">
+        <label for="newsletter">Suscribirse al newsletter</label>
+    </div>
+
+    <div class="campo">
+        <input type="checkbox" id="terminos" required>
+        <label for="terminos">Acepto términos y condiciones</label>
+    </div>
+    -->
+
+    <button type="submit">Registrarse</button>
+</form>
